@@ -2,6 +2,7 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
+// ================== FIRST USER ==================
 const firstUser = {};
 
 firstUser.name = "Monica";
@@ -11,7 +12,7 @@ firstUser.email = "monica@dingdong.com";
 
 const color = [...new Set(["Yellow", "Pink", "White", "Purple"])];
 // console.log(color);
-firstUser.color = color;
+firstUser.favoriteColor = color;
 firstUser.isHavePet = "Yes";
 
 const education = [{}, {}, {}];
@@ -29,7 +30,9 @@ const restaurant = [...new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", 
 // console.log(restaurant);
 firstUser.restaurant = restaurant;
 
+// ================== SECOND USER ==================
 const secondUser = {};
+
 secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
@@ -37,7 +40,7 @@ secondUser.email = "wendy@dingdong.com";
 
 const color2 = [new Set(["Blue", "Black", "Gray"])];
 // console.log(color);
-secondUser.color = color2;
+secondUser.favoriteColor = color2;
 secondUser.isHavePet = "No";
 
 const education2 = [{}, {}, {}, {}];
