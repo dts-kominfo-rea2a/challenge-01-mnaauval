@@ -11,7 +11,7 @@ firstUser.age = 17;
 firstUser.email = "monica@dingdong.com";
 
 const color = [...new Set(["Yellow", "Pink", "White", "Purple"])];
-// console.log(color);
+console.log(color);
 firstUser.favoriteColor = color;
 firstUser.isHavePet = "Yes";
 
@@ -27,7 +27,7 @@ education[2].city = "Tangerang";
 firstUser.education = education;
 
 const restaurant = [...new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"])];
-// console.log(restaurant);
+console.log(restaurant);
 firstUser.favoriteRestaurant = restaurant;
 
 // ================== SECOND USER ==================
@@ -38,8 +38,8 @@ secondUser.gender = "Male";
 secondUser.age = 23;
 secondUser.email = "wendy@dingdong.com";
 
-const color2 = [new Set(["Blue", "Black", "Gray"])];
-// console.log(color);
+const color2 = [...new Set(["Blue", "Black", "Gray"])];
+console.log(color2);
 secondUser.favoriteColor = color2;
 secondUser.isHavePet = "No";
 
@@ -57,12 +57,12 @@ education2[3].name = "Universitas Maju";
 education2[3].city = "Tangerang";
 secondUser.education = education2;
 
-const restaurant2 = [new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])];
-// console.log(restaurant);
+const restaurant2 = [...new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])];
+console.log(restaurant2);
 secondUser.favoriteRestaurant = restaurant2;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [firstUser, secondUser];
+const users = [];
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
