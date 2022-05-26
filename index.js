@@ -62,7 +62,7 @@ console.log(restaurant2);
 secondUser.favoriteRestaurant = restaurant2;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [];
+const users = [firstUser, secondUser];
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
