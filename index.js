@@ -28,7 +28,7 @@ firstUser.education = education;
 
 const restaurant = [...new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"])];
 // console.log(restaurant);
-firstUser.restaurant = restaurant;
+firstUser.favoriteRestaurant = restaurant;
 
 // ================== SECOND USER ==================
 const secondUser = {};
@@ -59,7 +59,7 @@ secondUser.education = education2;
 
 const restaurant2 = [new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])];
 // console.log(restaurant);
-secondUser.restaurant = restaurant2;
+secondUser.favoriteRestaurant = restaurant2;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
