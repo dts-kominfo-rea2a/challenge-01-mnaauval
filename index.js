@@ -35,7 +35,7 @@ secondUser.gender = "Male";
 secondUser.age = 23;
 secondUser.email = "wendy@dingdong.com";
 
-const color2 = [...new Set(["Blue", "Black", "Gray"])];
+const color2 = [new Set(["Blue", "Black", "Gray"])];
 // console.log(color);
 secondUser.color = color2;
 secondUser.isHavePet = "No";
@@ -54,7 +54,7 @@ education2[3].name = "Universitas Maju";
 education2[3].city = "Tangerang";
 secondUser.education = education2;
 
-const restaurant2 = [...new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])];
+const restaurant2 = [new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])];
 // console.log(restaurant);
 secondUser.restaurant = restaurant2;
 
